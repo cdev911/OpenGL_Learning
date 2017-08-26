@@ -9,7 +9,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(int argc , char *argv[]) {
 	cout << "OpeGL Learning" << endl; // prints OpeGL Learning
+
 	return 0;
 }
