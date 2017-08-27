@@ -7,12 +7,12 @@
 //============================================================================
 
 #include <iostream>
-using namespace std;
+#include<string>
+#include "display.h"
 
-int main(int argc , char *argv[]) {
-	cout << "OpeGL Learning" << endl; // prints OpeGL Learning
-	int sum=0;
-	for (int i = 0 ; i < 10 ; ++i)
-		sum+=i;
+int main() {
+
+	display disp(400,400,"hello world");
+
 	return 0;
 }
